@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    
+  }
+  body {
+    background-color: rgb(242, 242, 242);
+    font-family: "Calibri", 'Helvetica';
+    color: white;
+    margin: 4px;
+  }
+
+header {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(31, 78, 121);
+    justify-content: space-between;
+    
+  }
+
+  header h1 {
+    background-color: rgb(91, 155, 213);
+    padding: 10px 50px 10px 30px;
+    font-size: 50px;
+    justify-content: left;
+  }
+  /*top navigation*/
+  nav a {
+    background-color: rgb(91, 155, 213);
+    padding: 10px 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Calibri";
+    margin: 20px;
+    
+  }
+  nav a:hover {
+    background-color: rgba(240, 248, 255, 0.438);
+    color: white;
+  }

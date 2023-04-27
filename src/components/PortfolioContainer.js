@@ -1,9 +1,10 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
-import Contact from './Contact';
+// import { useState, useEffect } from 'react';
+import ContactForm from './ContactForm';
 import Footer from './Footer';
 import Header from './Header';
 import Portfolio from './Portfolio';
+import About from './About';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
@@ -15,8 +16,8 @@ function PortfolioContainer() {
       <div className="container">
         <Header />
         <Routes>
-          <Route exact path="/" component={Header} />
-          <Route path="/aboutme" component={Contact} />
+          <Route exact path="/" component={About} />
+          <Route path="/contact" component={ContactForm} />
           <Route path="/portfolio" component={Portfolio} />
           {/* <Route path="/resume" component={Resume} /> */}
         </Routes>
@@ -26,20 +27,5 @@ function PortfolioContainer() {
   )
 }
 
-function Home() {
-  return (
-    <section>
-      <h6>Hi! I'm Toni, welcome to my portfolio! I reside in Savage, MN where I currently work for Target in recruiting and events. I am also in the process of receiving my certificate in coding from the University of Minnesota. I am looking forward to connecting with you!</h6>
-    </section>
-  )
-}
-
-// function Contact() {
-//   return (
-//     <section>
-//       <h6>Update to Form</h6>
-//     </section>
-//   )
-// }
 
 export default PortfolioContainer;

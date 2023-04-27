@@ -6,10 +6,10 @@ function Navigation() {
     return (
         <nav>
             <ul>
-                <li><Link to="/">About Me</Link></li>
-                <li><Link to="/portfolio">Portfolio</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="/resume">Resume</Link></li>
+                <Link to="/">About Me</Link>
+                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/resume">Resume</Link>
             </ul>
         </nav>
     );
