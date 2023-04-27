@@ -1,5 +1,5 @@
-import OmdbContainer from './components/OmdbContainer';
+import PortfolioContainer from './components/PortfolioContainer';
 
 export default function App() {
-  return <OmdbContainer />;
+  return <PortfolioContainer />;
 }
