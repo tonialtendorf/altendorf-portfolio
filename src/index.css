@@ -3,12 +3,17 @@
     
   }
   body {
-    background-color: rgb(242, 242, 242);
+    background-color: rgba(31, 78, 121);
     font-family: "Calibri", 'Helvetica';
     color: white;
     margin: 4px;
   }
 
+  img {
+    width: 200px;
+    height: auto;border-radius: 50%;
+    border-radius: 50%;
+  }
 header {
     height: 150px;
     display: flex;
