@@ -15,7 +15,6 @@
 .project-card{
     background: black;
     padding: 1.2rem 1rem;
-
 }
 
 .project-card img{
@@ -25,4 +24,14 @@
 .project-title {
     color: white;
     padding: 1rem 0;
+}
+
+.btn-git{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+}
+
+.btn-git .btn{
+    padding: .5rem 1rem;
 }

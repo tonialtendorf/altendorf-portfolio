@@ -59,7 +59,7 @@ body{
   background: navy;
 }
 
-h1, h4, p, a{
+h1, h2, h3, h4, p, a{
   color: white;
   text-decoration: none;
 
