@@ -4,11 +4,13 @@ import Footer from '../components/Footer'
 import Project from '../components/Project'
 
 const Portfolio = () => {
-    return <div>
+    return (
+    <div>
         <Navigation />
         <Project />
         <Footer />
     </div>
+    )
 }
 
 export default Portfolio;

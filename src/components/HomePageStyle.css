@@ -1,18 +1,6 @@
-.mask{
-    position: relative;
+.hero {
+    padding-top: 200px;
 }
-
-.mask::after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-}
-
-
 .hero .content{
     position: relative;
     transform: translate(-50%, -50%);
@@ -33,8 +21,4 @@
 
 .content .btn {
     margin: 1rem .2rem;
-}
-
-.into-img {
-    border-radius: 50%;
 }

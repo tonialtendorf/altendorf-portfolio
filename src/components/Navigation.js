@@ -2,13 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './NavigationStyle.css'
 
+
+
 const Navigation = () => {
     return (
-        <div className="header">
+        <div className="header header-bg">
             <Link to="/">
                 <h1>Toni Altendorf</h1>
             </Link>
-            <ul className='nav-menu'>
+            <ul className="nav-menu">
                 <li>
                     <Link to="/">Home</Link>
                 </li>
@@ -25,9 +27,6 @@ const Navigation = () => {
         </div>
     )
 }
-
-
-
 
 
 export default Navigation;
