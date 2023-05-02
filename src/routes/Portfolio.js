@@ -1,44 +1,56 @@
-// import React from 'react';
-// import Project from '../components/Project';
+import React from 'react';
+import Navigation from "../components/Navigation"
+import Footer from '../components/Footer'
+import Project from '../components/Project'
 
-// const projects = [
-//   {
-//     title: "Project 1",
-//     github: "insert link",
-//     deployed: "insert link",
-//     image: "insert link",
-//   },
-//   {
-//     title: "Project 2",
-//     github: "insert link",
-//     deployed: "insert link",
-//     image: "insert link",
-//   },
-//   {
-//     title: "Project 3",
-//     github: "insert link",
-//     deployed: "insert link",
-//     image: "insert link",
-//   },
-//   {
-//     title: "Project 4",
-//     github: "insert link",
-//     deployed: "insert link",
-//     image: "insert link",
-//   },
-//   {
-//     title: "Project 5",
-//     github: "insert link",
-//     deployed: "insert link",
-//     image: "insert link",
-//   },
-//   {
-//     title: "Project 6",
-//     github: "insert link",
-//     deployed: "insert link",
-//     image: "insert link",
-//   },
-// ];
+const Portfolio = () => {
+    return <div>
+        <Navigation />
+        <Project />
+        <Footer />
+    </div>
+}
+
+
+
+const projects = [
+  {
+    title: "Project 1",
+    github: "insert link",
+    deployed: "insert link",
+    image: "insert link",
+  },
+  {
+    title: "Project 2",
+    github: "insert link",
+    deployed: "insert link",
+    image: "insert link",
+  },
+  {
+    title: "Project 3",
+    github: "insert link",
+    deployed: "insert link",
+    image: "insert link",
+  },
+  {
+    title: "Project 4",
+    github: "insert link",
+    deployed: "insert link",
+    image: "insert link",
+  },
+  {
+    title: "Project 5",
+    github: "insert link",
+    deployed: "insert link",
+    image: "insert link",
+  },
+  {
+    title: "Project 6",
+    github: "insert link",
+    deployed: "insert link",
+    image: "insert link",
+  },
+];
 
 // function Portfolio() {
 //     return (
@@ -55,4 +67,4 @@
 //     )
 // }
 
-// export default Portfolio;
+export default Portfolio;

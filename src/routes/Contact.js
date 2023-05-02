@@ -1,5 +1,14 @@
-// import React from 'react';
-// import { useState } from 'react';
+import React from 'react';
+import Navigation from "../components/Navigation"
+import Footer from '../components/Footer'
+
+const Contact = () => {
+    return <div>
+        <Navigation />
+        <Footer />
+    </div>
+}
+
 
 
 // function ContactForm() {
@@ -61,4 +70,4 @@
 //     );
 //   }
   
-//   export default ContactForm;
+  export default Contact;

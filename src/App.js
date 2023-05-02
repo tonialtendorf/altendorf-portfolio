@@ -1,5 +1,5 @@
 import About from './routes/About';
-import Contact from './routes/ContactForm';
+import Contact from './routes/Contact';
 import Portfolio from './routes/Portfolio';
 import Home from './routes/Home'
 import React from 'react';

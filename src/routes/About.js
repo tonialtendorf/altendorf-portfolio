@@ -1,3 +1,16 @@
+import React from 'react';
+import Navigation from "../components/Navigation"
+import Footer from '../components/Footer'
+
+const About = () => {
+    return <div>
+        <Navigation />
+        <Footer />
+    </div>
+}
+
+
+
 // import React from 'react';
 
 // function About() {
@@ -11,4 +24,4 @@
 //     )
 // }
 
-// export default About;
+export default About;
