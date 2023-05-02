@@ -1,36 +1,22 @@
-import Footer from './components/Footer';
-import Header from './components/Header';
-import React, { useState } from "react";
-import Navigation from './components/Navigation';
-import Page from './components/Page'
+import About from './routes/About';
+import Contact from './routes/ContactForm';
+import Portfolio from './routes/Portfolio';
+import Home from './routes/Home'
+import React from 'react';
+import { Route, Routes } from "react-router-dom"
+import './index.css';
 
 
 function App() {
-  const [pages] = useState([
-    { name: "about" },
-    { name: "portfolio" },
-    { name: "contact" },
-    { name: "resume" }
-  ])
-
-
-const [currentPage, setCurrentPage] = useState(pages[0]);
-
   return (
-    <div>
-        <Header>
-          <Navigation
-            pages={pages}
-            setCurrentPage={setCurrentPage}
-            currentPage={currentPage}
-          ></Navigation>
-        </Header>
-        <main>
-          <Page currentPage={currentPage}></Page>
-        </main>
-        <Footer />
-    </div>
-    
+  <>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+  </>
   );
 }
 
