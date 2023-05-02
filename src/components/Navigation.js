@@ -1,27 +1,31 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './NavigationStyle.css'
+import ResumeLink from './Resume'
 
 
 
 const Navigation = () => {
     return (
         <div className="header header-bg">
-            <Link to="/">
+            <NavLink to="/">
                 <h1>Toni Altendorf</h1>
-            </Link>
+            </NavLink>
             <ul className="nav-menu">
                 <li>
-                    <Link to="/">Home</Link>
+                    <NavLink to="/" className="active-link">Home</NavLink>
                 </li>
                 <li>
-                    <Link to="/portfolio">Portfolio</Link>
+                    <NavLink to="/portfolio" className="active-link">Portfolio</NavLink>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <NavLink to="/about" className="active-link">About</NavLink>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <NavLink to="/contact" className="active-link">Contact</NavLink>
+                </li>
+                <li>
+                    <ResumeLink className="active-link"/>
                 </li>
             </ul>
         </div>

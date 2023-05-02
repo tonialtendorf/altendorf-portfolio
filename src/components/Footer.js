@@ -8,13 +8,13 @@ const Footer = () => {
             <div className="footer-container">
                       <div className="social">
                         <a href="https://www.linkedin.com/in/tonivohnoutka/">
-                        <FaLinkedin size={30} style={{color:"#fff", marginRight: "1rem"}} /></a>
+                        <FaLinkedin size={30} style={{color:"#AC3B61", marginRight: "1rem"}} /></a>
 
                         <a href="https://twitter.com/">
-                        <FaTwitter size={30} style={{color:"#fff", marginRight: "1rem"}} /></a>
+                        <FaTwitter size={30} style={{color:"#AC3B61", marginRight: "1rem"}} /></a>
 
                         <a href="https://github.com/tonialtendorf">
-                        <FaGit size={30} style={{color:"#fff", marginRight: "1rem"}} /></a>
+                        <FaGit size={30} style={{color:"#AC3B61", marginRight: "1rem"}} /></a>
                     </div>
             </div>
         </div>
