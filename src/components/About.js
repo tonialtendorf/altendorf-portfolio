@@ -1,7 +1,7 @@
 import React from 'react';
-import Navigation from "../components/Navigation"
-import Footer from '../components/Footer'
-import AboutContent from '../components/AboutContent'
+import Navigation from "./Navigation"
+import Footer from './Footer'
+import AboutContent from './AboutContent'
 
 const About = () => {
     return (

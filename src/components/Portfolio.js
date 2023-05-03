@@ -1,7 +1,7 @@
 import React from 'react';
-import Navigation from "../components/Navigation"
-import Footer from '../components/Footer'
-import Project from '../components/Project'
+import Navigation from "./Navigation"
+import Footer from './Footer'
+import Project from './Project'
 
 const Portfolio = () => {
     return (

@@ -1,7 +1,7 @@
-import About from './routes/About';
-import Contact from './routes/Contact';
-import Portfolio from './routes/Portfolio';
-import Home from './routes/Home'
+import About from './components/About';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Home from './components/Home'
 import React from 'react';
 import { Route, Routes } from "react-router-dom"
 import './index.css';
