@@ -6,7 +6,7 @@ import project2 from '../assets/ShoppingList.png'
 import project3 from '../assets/weatherwidget.png'
 import project4 from '../assets/password.png'
 import project5 from '../assets/scheduler.png'
-import project6 from '../assets/quiztimer.png'
+import project6 from '../assets/plannerthrifty.PNG'
 
 
 
@@ -56,10 +56,10 @@ const Project = () => {
             </div>
             <div className="project-card">
                 <img src={project6} alt="img1" />
-                <h2 className="project-title">Timed Quiz</h2>
+                <h2 className="project-title">Planner | Thrifty Travel</h2>
                 <div className="btn-git">
-                    <NavLink to ="https://tonialtendorf.github.io/Module-4-Timed-Quiz/" className="btn">View</NavLink>
-                    <NavLink to ="https://github.com/tonialtendorf/Module-4-Timed-Quiz" className="btn">GitHub</NavLink>
+                    <NavLink to ="https://planner-thrifty-travel.herokuapp.com/" className="btn">View</NavLink>
+                    <NavLink to ="https://github.com/tonialtendorf/planner-thrifty-travel" className="btn">GitHub</NavLink>
                 </div>
             </div>
         </div>

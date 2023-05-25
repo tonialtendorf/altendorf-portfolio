@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/altendorf-portfolio/static/css/main.aa50c2fc.css",
+    "main.js": "/altendorf-portfolio/static/js/main.b9dea1d9.js",
+    "static/media/ShoppingList.png": "/altendorf-portfolio/static/media/ShoppingList.44250149d8b660f7aa04.png",
+    "static/media/scheduler.png": "/altendorf-portfolio/static/media/scheduler.9ca739ae0855c87dc94f.png",
+    "static/media/weatherwidget.png": "/altendorf-portfolio/static/media/weatherwidget.6dc99dea2ad47433120c.png",
+    "static/media/quiztimer.png": "/altendorf-portfolio/static/media/quiztimer.b98fb1b7f1c5eb0d6d4a.png",
+    "static/media/password.png": "/altendorf-portfolio/static/media/password.5ba98ad9c25fe77857ae.png",
+    "static/media/resumeexample.jpg": "/altendorf-portfolio/static/media/resumeexample.8be8d0f118d68945ae42.jpg",
+    "static/media/ThriftyTravel.jpg": "/altendorf-portfolio/static/media/ThriftyTravel.4ac7505b873091884d74.jpg",
+    "static/media/headshot.jpg": "/altendorf-portfolio/static/media/headshot.1c5acf3b09cbcc5e77fc.jpg",
+    "index.html": "/altendorf-portfolio/index.html",
+    "main.aa50c2fc.css.map": "/altendorf-portfolio/static/css/main.aa50c2fc.css.map",
+    "main.b9dea1d9.js.map": "/altendorf-portfolio/static/js/main.b9dea1d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa50c2fc.css",
+    "static/js/main.b9dea1d9.js"
+  ]
+}
